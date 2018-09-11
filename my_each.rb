@@ -1,3 +1,6 @@
 def my_each(array)
-  # code here
+  counter = 0
+  while counter < array.count do
+    yield()
+  
 end
